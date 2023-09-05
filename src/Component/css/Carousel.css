@@ -1,0 +1,38 @@
+/* styles.css */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .slick-slider {
+    width: 100%;
+  }
+  
+  .custom-next-arrow,
+  .custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .custom-next-arrow {
+    right: 10px; /* Adjust the right position as needed */
+  }
+  
+  .custom-prev-arrow {
+    left: 10px; /* Adjust the left position as needed */
+  }
+  
+  .custom-next-arrow:hover,
+  .custom-prev-arrow:hover {
+    color: #00ff00; /* Neon green color */
+  }
+  

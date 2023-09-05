@@ -1,0 +1,45 @@
+
+
+[
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "dateOfBirth": "1998-05-15",
+      "gender": "Male",
+      "class": "12th"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "dateOfBirth": "1999-08-20",
+      "gender": "Female",
+      "class": "11th"
+    },
+    {
+      "id": 3,
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "dateOfBirth": "2000-03-10",
+      "gender": "Male",
+      "class": "10th"
+    },
+    {
+      "id": 4,
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "dateOfBirth": "1999-11-25",
+      "gender": "Female",
+      "class": "11th"
+    },
+    {
+      "id": 5,
+      "firstName": "David",
+      "lastName": "Brown",
+      "dateOfBirth": "2001-02-05",
+      "gender": "Male",
+      "class": "9th"
+    }
+  ]
+  

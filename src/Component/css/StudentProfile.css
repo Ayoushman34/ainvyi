@@ -1,0 +1,41 @@
+/* StudentProfile.css */
+.student-profile {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .student-profile.hidden {
+    transform: translateY(-50px);
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+
+  /* Add this to your CSS file */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .close-button:hover {
+    color: #f00;
+  }
+  
+  .student-profile.closable {
+    position: relative;
+  }
+  
+
+  /* StudentProfile.css */
+.student-profile {
+    transition: all 0.5s ease-in-out; /* Adjust the transition duration as needed */
+    /* Other styles for the profile */
+  }
+  
